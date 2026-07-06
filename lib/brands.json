@@ -1,0 +1,681 @@
+{
+  "categories": [
+    {
+      "slug": "ai-and-llm-platforms",
+      "label": "AI & LLM Platforms"
+    },
+    {
+      "slug": "automotive",
+      "label": "Automotive"
+    },
+    {
+      "slug": "backend-database-and-devops",
+      "label": "Backend, Database & DevOps"
+    },
+    {
+      "slug": "design-and-creative-tools",
+      "label": "Design & Creative Tools"
+    },
+    {
+      "slug": "developer-tools-and-ides",
+      "label": "Developer Tools & IDEs"
+    },
+    {
+      "slug": "e-commerce-and-retail",
+      "label": "E-Commerce & Retail"
+    },
+    {
+      "slug": "fintech-and-crypto",
+      "label": "Fintech & Crypto"
+    },
+    {
+      "slug": "media-and-consumer-tech",
+      "label": "Media & Consumer Tech"
+    },
+    {
+      "slug": "productivity-and-saas",
+      "label": "Productivity & SaaS"
+    }
+  ],
+  "brands": [
+    {
+      "slug": "claude",
+      "file": "claude",
+      "name": "Claude",
+      "category": "ai-and-llm-platforms",
+      "categoryLabel": "AI & LLM Platforms",
+      "blurb": "Anthropic's AI assistant. Warm terracotta accent, clean editorial layout",
+      "site": "https://claude.ai"
+    },
+    {
+      "slug": "cohere",
+      "file": "cohere",
+      "name": "Cohere",
+      "category": "ai-and-llm-platforms",
+      "categoryLabel": "AI & LLM Platforms",
+      "blurb": "Enterprise AI platform. Vibrant gradients, data-rich dashboard aesthetic",
+      "site": "https://cohere.com"
+    },
+    {
+      "slug": "elevenlabs",
+      "file": "elevenlabs",
+      "name": "ElevenLabs",
+      "category": "ai-and-llm-platforms",
+      "categoryLabel": "AI & LLM Platforms",
+      "blurb": "AI voice platform. Dark cinematic UI, audio-waveform aesthetics",
+      "site": "https://elevenlabs.io"
+    },
+    {
+      "slug": "minimax",
+      "file": "minimax",
+      "name": "MiniMax",
+      "category": "ai-and-llm-platforms",
+      "categoryLabel": "AI & LLM Platforms",
+      "blurb": "AI model provider. Bold dark interface with neon accents",
+      "site": "https://www.minimax.io"
+    },
+    {
+      "slug": "mistral-ai",
+      "file": "mistral.ai",
+      "name": "Mistral",
+      "category": "ai-and-llm-platforms",
+      "categoryLabel": "AI & LLM Platforms",
+      "blurb": "Open-weight LLM provider. French-engineered minimalism, purple-toned",
+      "site": "https://mistral.ai"
+    },
+    {
+      "slug": "ollama",
+      "file": "ollama",
+      "name": "Ollama",
+      "category": "ai-and-llm-platforms",
+      "categoryLabel": "AI & LLM Platforms",
+      "blurb": "Run LLMs locally. Terminal-first, monochrome simplicity",
+      "site": "https://ollama.com"
+    },
+    {
+      "slug": "opencode-ai",
+      "file": "opencode.ai",
+      "name": "OpenCode",
+      "category": "ai-and-llm-platforms",
+      "categoryLabel": "AI & LLM Platforms",
+      "blurb": "AI coding platform. Developer-centric dark theme",
+      "site": "https://opencode.ai"
+    },
+    {
+      "slug": "replicate",
+      "file": "replicate",
+      "name": "Replicate",
+      "category": "ai-and-llm-platforms",
+      "categoryLabel": "AI & LLM Platforms",
+      "blurb": "Run ML models via API. Clean white canvas, code-forward",
+      "site": "https://replicate.com"
+    },
+    {
+      "slug": "runwayml",
+      "file": "runwayml",
+      "name": "Runway",
+      "category": "ai-and-llm-platforms",
+      "categoryLabel": "AI & LLM Platforms",
+      "blurb": "AI creative tools. Cinematic dark heroes, editorial film-festival aesthetic",
+      "site": "https://runwayml.com"
+    },
+    {
+      "slug": "together-ai",
+      "file": "together.ai",
+      "name": "Together AI",
+      "category": "ai-and-llm-platforms",
+      "categoryLabel": "AI & LLM Platforms",
+      "blurb": "Open-source AI infrastructure. Technical, blueprint-style design",
+      "site": "https://together.ai"
+    },
+    {
+      "slug": "voltagent",
+      "file": "voltagent",
+      "name": "VoltAgent",
+      "category": "ai-and-llm-platforms",
+      "categoryLabel": "AI & LLM Platforms",
+      "blurb": "AI agent framework. Void-black canvas, emerald accent, terminal-native",
+      "site": "https://voltagent.dev"
+    },
+    {
+      "slug": "x-ai",
+      "file": "x.ai",
+      "name": "xAI",
+      "category": "ai-and-llm-platforms",
+      "categoryLabel": "AI & LLM Platforms",
+      "blurb": "Elon Musk's AI lab. Stark monochrome, futuristic minimalism",
+      "site": "https://x.ai"
+    },
+    {
+      "slug": "bmw-m",
+      "file": "bmw-m",
+      "name": "BMW M",
+      "category": "automotive",
+      "categoryLabel": "Automotive",
+      "blurb": "Performance automotive. Motorsport-inspired contrast, M color accents, precision-driven layout",
+      "site": "https://bmw-m.com"
+    },
+    {
+      "slug": "bmw",
+      "file": "bmw",
+      "name": "BMW",
+      "category": "automotive",
+      "categoryLabel": "Automotive",
+      "blurb": "Luxury automotive. Dark premium surfaces, precise German engineering aesthetic",
+      "site": "https://bmw.com"
+    },
+    {
+      "slug": "bugatti",
+      "file": "bugatti",
+      "name": "Bugatti",
+      "category": "automotive",
+      "categoryLabel": "Automotive",
+      "blurb": "Luxury hypercar. Cinema-black canvas, monochrome austerity, monumental display type",
+      "site": "https://bugatti.com"
+    },
+    {
+      "slug": "ferrari",
+      "file": "ferrari",
+      "name": "Ferrari",
+      "category": "automotive",
+      "categoryLabel": "Automotive",
+      "blurb": "Luxury automotive. Chiaroscuro black-white editorial, Ferrari Red with extreme sparseness",
+      "site": "https://ferrari.com"
+    },
+    {
+      "slug": "lamborghini",
+      "file": "lamborghini",
+      "name": "Lamborghini",
+      "category": "automotive",
+      "categoryLabel": "Automotive",
+      "blurb": "Luxury automotive. True black cathedral, gold accent, LamboType custom Neo-Grotesk",
+      "site": "https://lamborghini.com"
+    },
+    {
+      "slug": "renault",
+      "file": "renault",
+      "name": "Renault",
+      "category": "automotive",
+      "categoryLabel": "Automotive",
+      "blurb": "French automotive. Vivid aurora gradients, NouvelR proprietary typeface, zero-radius buttons",
+      "site": "https://renault.com"
+    },
+    {
+      "slug": "tesla",
+      "file": "tesla",
+      "name": "Tesla",
+      "category": "automotive",
+      "categoryLabel": "Automotive",
+      "blurb": "Electric vehicles. Radical subtraction, cinematic full-viewport photography, Universal Sans",
+      "site": "https://tesla.com"
+    },
+    {
+      "slug": "clickhouse",
+      "file": "clickhouse",
+      "name": "ClickHouse",
+      "category": "backend-database-and-devops",
+      "categoryLabel": "Backend, Database & DevOps",
+      "blurb": "Fast analytics database. Yellow-accented, technical documentation style",
+      "site": "https://clickhouse.com"
+    },
+    {
+      "slug": "composio",
+      "file": "composio",
+      "name": "Composio",
+      "category": "backend-database-and-devops",
+      "categoryLabel": "Backend, Database & DevOps",
+      "blurb": "Tool integration platform. Modern dark with colorful integration icons",
+      "site": "https://composio.dev"
+    },
+    {
+      "slug": "hashicorp",
+      "file": "hashicorp",
+      "name": "HashiCorp",
+      "category": "backend-database-and-devops",
+      "categoryLabel": "Backend, Database & DevOps",
+      "blurb": "Infrastructure automation. Enterprise-clean, black and white",
+      "site": "https://hashicorp.com"
+    },
+    {
+      "slug": "mongodb",
+      "file": "mongodb",
+      "name": "MongoDB",
+      "category": "backend-database-and-devops",
+      "categoryLabel": "Backend, Database & DevOps",
+      "blurb": "Document database. Green leaf branding, developer documentation focus",
+      "site": "https://mongodb.com"
+    },
+    {
+      "slug": "posthog",
+      "file": "posthog",
+      "name": "PostHog",
+      "category": "backend-database-and-devops",
+      "categoryLabel": "Backend, Database & DevOps",
+      "blurb": "Product analytics. Playful hedgehog branding, developer-friendly dark UI",
+      "site": "https://posthog.com"
+    },
+    {
+      "slug": "sanity",
+      "file": "sanity",
+      "name": "Sanity",
+      "category": "backend-database-and-devops",
+      "categoryLabel": "Backend, Database & DevOps",
+      "blurb": "Headless content platform. Dark-first editorial, IBM Plex Mono eyebrows, coral-red accent",
+      "site": "https://sanity.io"
+    },
+    {
+      "slug": "sentry",
+      "file": "sentry",
+      "name": "Sentry",
+      "category": "backend-database-and-devops",
+      "categoryLabel": "Backend, Database & DevOps",
+      "blurb": "Error monitoring. Dark dashboard, data-dense, pink-purple accent",
+      "site": "https://sentry.io"
+    },
+    {
+      "slug": "supabase",
+      "file": "supabase",
+      "name": "Supabase",
+      "category": "backend-database-and-devops",
+      "categoryLabel": "Backend, Database & DevOps",
+      "blurb": "Open-source Firebase alternative. Dark emerald theme, code-first",
+      "site": "https://supabase.com"
+    },
+    {
+      "slug": "airtable",
+      "file": "airtable",
+      "name": "Airtable",
+      "category": "design-and-creative-tools",
+      "categoryLabel": "Design & Creative Tools",
+      "blurb": "Spreadsheet-database hybrid. Colorful, friendly, structured data aesthetic",
+      "site": "https://airtable.com"
+    },
+    {
+      "slug": "clay",
+      "file": "clay",
+      "name": "Clay",
+      "category": "design-and-creative-tools",
+      "categoryLabel": "Design & Creative Tools",
+      "blurb": "Creative agency. Organic shapes, soft gradients, art-directed layout",
+      "site": "https://www.clay.global"
+    },
+    {
+      "slug": "figma",
+      "file": "figma",
+      "name": "Figma",
+      "category": "design-and-creative-tools",
+      "categoryLabel": "Design & Creative Tools",
+      "blurb": "Collaborative design tool. Vibrant multi-color, playful yet professional",
+      "site": "https://figma.com"
+    },
+    {
+      "slug": "framer",
+      "file": "framer",
+      "name": "Framer",
+      "category": "design-and-creative-tools",
+      "categoryLabel": "Design & Creative Tools",
+      "blurb": "Website builder. Bold black and blue, motion-first, design-forward",
+      "site": "https://framer.com"
+    },
+    {
+      "slug": "miro",
+      "file": "miro",
+      "name": "Miro",
+      "category": "design-and-creative-tools",
+      "categoryLabel": "Design & Creative Tools",
+      "blurb": "Visual collaboration. Bright yellow accent, infinite canvas aesthetic",
+      "site": "https://miro.com"
+    },
+    {
+      "slug": "webflow",
+      "file": "webflow",
+      "name": "Webflow",
+      "category": "design-and-creative-tools",
+      "categoryLabel": "Design & Creative Tools",
+      "blurb": "Visual web builder. Blue-accented, polished marketing site aesthetic",
+      "site": "https://webflow.com"
+    },
+    {
+      "slug": "cursor",
+      "file": "cursor",
+      "name": "Cursor",
+      "category": "developer-tools-and-ides",
+      "categoryLabel": "Developer Tools & IDEs",
+      "blurb": "AI-first code editor. Sleek dark interface, gradient accents",
+      "site": "https://cursor.com"
+    },
+    {
+      "slug": "expo",
+      "file": "expo",
+      "name": "Expo",
+      "category": "developer-tools-and-ides",
+      "categoryLabel": "Developer Tools & IDEs",
+      "blurb": "React Native platform. Dark theme, tight letter-spacing, code-centric",
+      "site": "https://expo.dev"
+    },
+    {
+      "slug": "lovable",
+      "file": "lovable",
+      "name": "Lovable",
+      "category": "developer-tools-and-ides",
+      "categoryLabel": "Developer Tools & IDEs",
+      "blurb": "AI full-stack builder. Playful gradients, friendly dev aesthetic",
+      "site": "https://lovable.dev"
+    },
+    {
+      "slug": "raycast",
+      "file": "raycast",
+      "name": "Raycast",
+      "category": "developer-tools-and-ides",
+      "categoryLabel": "Developer Tools & IDEs",
+      "blurb": "Productivity launcher. Sleek dark chrome, vibrant gradient accents",
+      "site": "https://raycast.com"
+    },
+    {
+      "slug": "superhuman",
+      "file": "superhuman",
+      "name": "Superhuman",
+      "category": "developer-tools-and-ides",
+      "categoryLabel": "Developer Tools & IDEs",
+      "blurb": "Fast email client. Premium dark UI, keyboard-first, purple glow",
+      "site": "https://superhuman.com"
+    },
+    {
+      "slug": "vercel",
+      "file": "vercel",
+      "name": "Vercel",
+      "category": "developer-tools-and-ides",
+      "categoryLabel": "Developer Tools & IDEs",
+      "blurb": "Frontend deployment platform. Black and white precision, Geist font",
+      "site": "https://vercel.com"
+    },
+    {
+      "slug": "warp",
+      "file": "warp",
+      "name": "Warp",
+      "category": "developer-tools-and-ides",
+      "categoryLabel": "Developer Tools & IDEs",
+      "blurb": "Modern terminal. Dark IDE-like interface, block-based command UI",
+      "site": "https://warp.dev"
+    },
+    {
+      "slug": "airbnb",
+      "file": "airbnb",
+      "name": "Airbnb",
+      "category": "e-commerce-and-retail",
+      "categoryLabel": "E-Commerce & Retail",
+      "blurb": "Travel marketplace. Warm coral accent, photography-driven, rounded UI",
+      "site": "https://airbnb.com"
+    },
+    {
+      "slug": "meta",
+      "file": "meta",
+      "name": "Meta",
+      "category": "e-commerce-and-retail",
+      "categoryLabel": "E-Commerce & Retail",
+      "blurb": "Tech retail store. Photography-first, binary light/dark surfaces, Meta Blue CTAs",
+      "site": "https://www.meta.com"
+    },
+    {
+      "slug": "nike",
+      "file": "nike",
+      "name": "Nike",
+      "category": "e-commerce-and-retail",
+      "categoryLabel": "E-Commerce & Retail",
+      "blurb": "Athletic retail. Monochrome UI, massive uppercase Futura, full-bleed photography",
+      "site": "https://nike.com"
+    },
+    {
+      "slug": "shopify",
+      "file": "shopify",
+      "name": "Shopify",
+      "category": "e-commerce-and-retail",
+      "categoryLabel": "E-Commerce & Retail",
+      "blurb": "E-commerce platform. Dark-first cinematic, neon green accent, ultra-light display type",
+      "site": "https://shopify.com"
+    },
+    {
+      "slug": "starbucks",
+      "file": "starbucks",
+      "name": "Starbucks",
+      "category": "e-commerce-and-retail",
+      "categoryLabel": "E-Commerce & Retail",
+      "blurb": "Coffee retail flagship. Four-tier earth-green system, warm cream canvas, proprietary SoDoSans",
+      "site": "https://starbucks.com"
+    },
+    {
+      "slug": "binance",
+      "file": "binance",
+      "name": "Binance",
+      "category": "fintech-and-crypto",
+      "categoryLabel": "Fintech & Crypto",
+      "blurb": "Crypto exchange. Bold Binance Yellow on monochrome, trading-floor urgency",
+      "site": "https://binance.com"
+    },
+    {
+      "slug": "coinbase",
+      "file": "coinbase",
+      "name": "Coinbase",
+      "category": "fintech-and-crypto",
+      "categoryLabel": "Fintech & Crypto",
+      "blurb": "Crypto exchange. Clean blue identity, trust-focused, institutional feel",
+      "site": "https://coinbase.com"
+    },
+    {
+      "slug": "kraken",
+      "file": "kraken",
+      "name": "Kraken",
+      "category": "fintech-and-crypto",
+      "categoryLabel": "Fintech & Crypto",
+      "blurb": "Crypto trading platform. Purple-accented dark UI, data-dense dashboards",
+      "site": "https://kraken.com"
+    },
+    {
+      "slug": "mastercard",
+      "file": "mastercard",
+      "name": "Mastercard",
+      "category": "fintech-and-crypto",
+      "categoryLabel": "Fintech & Crypto",
+      "blurb": "Global payments network. Warm cream canvas, orbital pill shapes, editorial warmth",
+      "site": "https://mastercard.com"
+    },
+    {
+      "slug": "revolut",
+      "file": "revolut",
+      "name": "Revolut",
+      "category": "fintech-and-crypto",
+      "categoryLabel": "Fintech & Crypto",
+      "blurb": "Digital banking. Sleek dark interface, gradient cards, fintech precision",
+      "site": "https://revolut.com"
+    },
+    {
+      "slug": "stripe",
+      "file": "stripe",
+      "name": "Stripe",
+      "category": "fintech-and-crypto",
+      "categoryLabel": "Fintech & Crypto",
+      "blurb": "Payment infrastructure. Signature purple gradients, weight-300 elegance",
+      "site": "https://stripe.com"
+    },
+    {
+      "slug": "wise",
+      "file": "wise",
+      "name": "Wise",
+      "category": "fintech-and-crypto",
+      "categoryLabel": "Fintech & Crypto",
+      "blurb": "International money transfer. Bright green accent, friendly and clear",
+      "site": "https://wise.com"
+    },
+    {
+      "slug": "apple",
+      "file": "apple",
+      "name": "Apple",
+      "category": "media-and-consumer-tech",
+      "categoryLabel": "Media & Consumer Tech",
+      "blurb": "Consumer electronics. Premium white space, SF Pro, cinematic imagery",
+      "site": "https://apple.com"
+    },
+    {
+      "slug": "ibm",
+      "file": "ibm",
+      "name": "IBM",
+      "category": "media-and-consumer-tech",
+      "categoryLabel": "Media & Consumer Tech",
+      "blurb": "Enterprise technology. Carbon design system, structured blue palette",
+      "site": "https://ibm.com"
+    },
+    {
+      "slug": "nvidia",
+      "file": "nvidia",
+      "name": "NVIDIA",
+      "category": "media-and-consumer-tech",
+      "categoryLabel": "Media & Consumer Tech",
+      "blurb": "GPU computing. Green-black energy, technical power aesthetic",
+      "site": "https://nvidia.com"
+    },
+    {
+      "slug": "pinterest",
+      "file": "pinterest",
+      "name": "Pinterest",
+      "category": "media-and-consumer-tech",
+      "categoryLabel": "Media & Consumer Tech",
+      "blurb": "Visual discovery platform. Red accent, masonry grid, image-first",
+      "site": "https://pinterest.com"
+    },
+    {
+      "slug": "playstation",
+      "file": "playstation",
+      "name": "PlayStation",
+      "category": "media-and-consumer-tech",
+      "categoryLabel": "Media & Consumer Tech",
+      "blurb": "Gaming console retail. Three-surface channel layout, cyan hover-scale interaction",
+      "site": "https://playstation.com"
+    },
+    {
+      "slug": "spacex",
+      "file": "spacex",
+      "name": "SpaceX",
+      "category": "media-and-consumer-tech",
+      "categoryLabel": "Media & Consumer Tech",
+      "blurb": "Space technology. Stark black and white, full-bleed imagery, futuristic",
+      "site": "https://spacex.com"
+    },
+    {
+      "slug": "spotify",
+      "file": "spotify",
+      "name": "Spotify",
+      "category": "media-and-consumer-tech",
+      "categoryLabel": "Media & Consumer Tech",
+      "blurb": "Music streaming. Vibrant green on dark, bold type, album-art-driven",
+      "site": "https://spotify.com"
+    },
+    {
+      "slug": "theverge",
+      "file": "theverge",
+      "name": "The Verge",
+      "category": "media-and-consumer-tech",
+      "categoryLabel": "Media & Consumer Tech",
+      "blurb": "Tech editorial media. Acid-mint and ultraviolet accents, Manuka display type",
+      "site": "https://theverge.com"
+    },
+    {
+      "slug": "uber",
+      "file": "uber",
+      "name": "Uber",
+      "category": "media-and-consumer-tech",
+      "categoryLabel": "Media & Consumer Tech",
+      "blurb": "Mobility platform. Bold black and white, tight type, urban energy",
+      "site": "https://uber.com"
+    },
+    {
+      "slug": "vodafone",
+      "file": "vodafone",
+      "name": "Vodafone",
+      "category": "media-and-consumer-tech",
+      "categoryLabel": "Media & Consumer Tech",
+      "blurb": "Global telecom brand. Monumental uppercase display, Vodafone Red chapter bands",
+      "site": "https://vodafone.com"
+    },
+    {
+      "slug": "wired",
+      "file": "wired",
+      "name": "WIRED",
+      "category": "media-and-consumer-tech",
+      "categoryLabel": "Media & Consumer Tech",
+      "blurb": "Tech magazine. Paper-white broadsheet density, custom serif, ink-blue links",
+      "site": "https://wired.com"
+    },
+    {
+      "slug": "cal",
+      "file": "cal",
+      "name": "Cal.com",
+      "category": "productivity-and-saas",
+      "categoryLabel": "Productivity & SaaS",
+      "blurb": "Open-source scheduling. Clean neutral UI, developer-oriented simplicity",
+      "site": "https://cal.com"
+    },
+    {
+      "slug": "intercom",
+      "file": "intercom",
+      "name": "Intercom",
+      "category": "productivity-and-saas",
+      "categoryLabel": "Productivity & SaaS",
+      "blurb": "Customer messaging. Friendly blue palette, conversational UI patterns",
+      "site": "https://intercom.com"
+    },
+    {
+      "slug": "linear-app",
+      "file": "linear.app",
+      "name": "Linear",
+      "category": "productivity-and-saas",
+      "categoryLabel": "Productivity & SaaS",
+      "blurb": "Project management for engineers. Ultra-minimal, precise, purple accent",
+      "site": "https://linear.app"
+    },
+    {
+      "slug": "mintlify",
+      "file": "mintlify",
+      "name": "Mintlify",
+      "category": "productivity-and-saas",
+      "categoryLabel": "Productivity & SaaS",
+      "blurb": "Documentation platform. Clean, green-accented, reading-optimized",
+      "site": "https://mintlify.com"
+    },
+    {
+      "slug": "notion",
+      "file": "notion",
+      "name": "Notion",
+      "category": "productivity-and-saas",
+      "categoryLabel": "Productivity & SaaS",
+      "blurb": "All-in-one workspace. Warm minimalism, serif headings, soft surfaces",
+      "site": "https://www.notion.so"
+    },
+    {
+      "slug": "resend",
+      "file": "resend",
+      "name": "Resend",
+      "category": "productivity-and-saas",
+      "categoryLabel": "Productivity & SaaS",
+      "blurb": "Email API for developers. Minimal dark theme, monospace accents",
+      "site": "https://resend.com"
+    },
+    {
+      "slug": "slack",
+      "file": "slack",
+      "name": "Slack",
+      "category": "productivity-and-saas",
+      "categoryLabel": "Productivity & SaaS",
+      "blurb": "Team messaging platform. Colorful, friendly, channel-based UI",
+      "site": "https://slack.com"
+    },
+    {
+      "slug": "zapier",
+      "file": "zapier",
+      "name": "Zapier",
+      "category": "productivity-and-saas",
+      "categoryLabel": "Productivity & SaaS",
+      "blurb": "Automation platform. Warm orange, friendly illustration-driven",
+      "site": "https://zapier.com"
+    }
+  ]
+}

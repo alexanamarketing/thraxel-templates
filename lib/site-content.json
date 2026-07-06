@@ -1,0 +1,67 @@
+{
+  "tagline": "The same sample page rendered in 71 design languages, so you can compare directions side by side and pick a starting point for your project.",
+  "about": [
+    "Every project starts with a design direction. This gallery renders one sample page in 71 different design languages, drawn from the visual systems of well-known tech brands, so you can compare directions side by side instead of describing what you want from scratch.",
+    "The content never changes; only the design does. When a direction fits, note the template name and send it with your project brief. We build from there."
+  ],
+  "howItWorks": [
+    "Browse the categories and open a few templates that catch your eye.",
+    "Shortlist one or two template names.",
+    "Send them with your project brief and Thraxel builds in that direction."
+  ],
+  "categories": [
+    {
+      "slug": "ai-and-llm-platforms",
+      "label": "AI & LLM Platforms",
+      "description": "AI models, voice synthesis, ML inference APIs, agent frameworks, and creative AI tools from frontier labs and open-source providers."
+    },
+    {
+      "slug": "automotive",
+      "label": "Automotive",
+      "description": "Luxury, performance, and electric vehicle brands with visual languages ranging from stark minimalism to cinematic excess."
+    },
+    {
+      "slug": "backend-database-and-devops",
+      "label": "Backend, Database & DevOps",
+      "description": "Databases, analytics engines, infrastructure automation, error monitoring, and developer-facing backend platforms."
+    },
+    {
+      "slug": "design-and-creative-tools",
+      "label": "Design & Creative Tools",
+      "description": "Collaborative design software, visual builders, and creative platforms used by designers and product teams."
+    },
+    {
+      "slug": "developer-tools-and-ides",
+      "label": "Developer Tools & IDEs",
+      "description": "Code editors, deployment platforms, terminals, mobile toolchains, and developer productivity apps built for engineering workflows."
+    },
+    {
+      "slug": "e-commerce-and-retail",
+      "label": "E-Commerce & Retail",
+      "description": "Consumer retail, marketplace, and e-commerce platform brands with visual identities ranging from athletic to premium hospitality."
+    },
+    {
+      "slug": "fintech-and-crypto",
+      "label": "Fintech & Crypto",
+      "description": "Payment infrastructure, crypto exchanges, digital banking, and global payments network brands with trust-focused or trading-floor visual languages."
+    },
+    {
+      "slug": "media-and-consumer-tech",
+      "label": "Media & Consumer Tech",
+      "description": "Consumer electronics, tech media publications, streaming platforms, hardware makers, and large-scale mobility and telecom brands."
+    },
+    {
+      "slug": "productivity-and-saas",
+      "label": "Productivity & SaaS",
+      "description": "Team communication, project management, documentation, scheduling, email, and workflow automation platforms for knowledge workers."
+    }
+  ],
+  "brandBlurbs": {
+    "runwayml": "AI creative-tools platform with an editorial film-festival aesthetic: cinematic dark heroes, paper-white reading bands, single proprietary sans, and pure black pill CTAs.",
+    "sanity": "Headless content platform with a dark-first editorial marketing surface: 112px display type, IBM Plex Mono technical eyebrows, and a single coral-red accent reserved for the highest-priority CTA."
+  },
+  "counts": {
+    "brands": 71,
+    "categories": 9
+  }
+}
