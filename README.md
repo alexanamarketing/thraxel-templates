@@ -7,7 +7,7 @@ The sample content never changes; only the design does. Browse the categories, o
 ## How it works
 
 - Every template is a theme file in `lib/themes/<slug>.ts` describing colors, typography, layout, and signature details.
-- One shared renderer (`app/components/standard/StandardTemplate.tsx`) draws the fixed sample page ("SignalKit", a fictional product) in whatever theme it is given.
+- One shared renderer (`app/components/standard/StandardTemplate.tsx`) draws the fixed sample page (Thraxel's own services page) in whatever theme it is given.
 - `lib/brands.json` + `lib/site-content.json` drive the gallery index: categories, blurbs, and links.
 - The site is a fully static Next.js export (`output: "export"`), deployable to any static host.
 

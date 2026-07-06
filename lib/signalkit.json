@@ -1,115 +1,115 @@
 {
   "navbar": {
-    "wordmark": "SignalKit",
-    "links": ["Product", "Workflow", "Pricing", "Customers", "Docs"],
-    "ghost": "Sign in",
-    "primary": "Start free"
+    "wordmark": "Thraxel",
+    "links": ["Services", "Platform", "Pricing", "Industries", "Contact"],
+    "ghost": "Client login",
+    "primary": "Start a project"
   },
   "hero": {
-    "eyebrow": "Shared launch workspace",
-    "h1": "Plan launches with every team in view",
-    "subhead": "SignalKit brings tasks, approvals, feedback, and results into one clear workspace so teams can move from draft to live without losing context.",
-    "primary": "Start a workspace",
-    "secondary": "View demo",
-    "ghostLink": "Read the guide",
+    "eyebrow": "Your always-on technical team",
+    "h1": "One team for everything you build next",
+    "subhead": "Thraxel designs, builds, and runs your technology: AI agents working around the clock, full web and product builds, and automations wired into the stack you already have.",
+    "primary": "Start a project",
+    "secondary": "See what we build",
+    "ghostLink": "How we work",
     "preview": {
-      "title": "Launch status",
-      "statusChip": "Ready for review",
+      "title": "Deployment status",
+      "statusChip": "Agents running",
       "rows": [
-        { "label": "Next milestone", "value": "Public beta" },
-        { "label": "Open tasks", "value": "12 remaining" },
-        { "label": "Approvals", "value": "3 pending" }
+        { "label": "Active agents", "value": "24/7" },
+        { "label": "Industries live", "value": "Six" },
+        { "label": "Infrastructure", "value": "SOC 2 + HIPAA" }
       ],
-      "note": "Updated 8 minutes ago"
+      "note": "Updated moments ago"
     }
   },
   "features": {
-    "eyebrow": "Core workflow",
-    "heading": "One rhythm from idea to rollout",
-    "subhead": "Keep the brief, decisions, and delivery work connected from the first draft to the final report.",
+    "eyebrow": "What we do",
+    "heading": "From idea to running system",
+    "subhead": "One partner for the build, the automation, and the long-run improvement of your technology.",
     "items": [
       {
-        "tag": "Plan",
-        "title": "Collect the brief",
-        "body": "Turn goals, owners, dates, and dependencies into a shared launch plan everyone can read.",
-        "link": "Build a brief"
+        "tag": "Build",
+        "title": "Websites, products, portals",
+        "body": "Full builds designed to convert, shipped fast, and wired into your operations from day one.",
+        "link": "See our builds"
       },
       {
-        "tag": "Approve",
-        "title": "Review in context",
-        "body": "Route copy, creative, and product notes through clear checkpoints before anything goes live.",
-        "link": "Review work"
+        "tag": "Automate",
+        "title": "AI agents on your stack",
+        "body": "Always-on agents that watch, respond, follow up, and learn from your data around the clock.",
+        "link": "Meet the agents"
       },
       {
-        "tag": "Learn",
-        "title": "Measure the launch",
-        "body": "Capture results, blockers, and follow-up work in the same place the launch was planned.",
-        "link": "Track results"
+        "tag": "Evolve",
+        "title": "Systems that improve",
+        "body": "Deployments surface suggestions your team approves, so the system gets smarter every month.",
+        "link": "How it learns"
       }
     ]
   },
   "detailRows": {
     "rows": [
       {
-        "title": "Approvals that keep their context",
-        "body": "Every review carries the brief, the thread, and the deadline with it. Approvers see what changed, what it affects, and what happens next, so sign-off takes minutes instead of another meeting.",
-        "link": "See how approvals work",
+        "title": "An AI workforce inside your product",
+        "body": "Persistent agents run long tasks continuously: monitoring, follow-up, browser automation, and integrations, configured to your industry and your data. Your team approves what ships; the agents do the work.",
+        "link": "Explore the platform",
         "vignette": {
           "kind": "queue",
-          "title": "Review queue",
+          "title": "Agent activity",
           "rows": [
-            { "label": "Launch email v3", "value": "Approved" },
-            { "label": "Pricing page copy", "value": "In review" },
-            { "label": "Beta invite flow", "value": "Waiting on legal" }
+            { "label": "Listing monitor", "value": "Running" },
+            { "label": "Client follow-up", "value": "14 sent today" },
+            { "label": "Data sync", "value": "Up to date" }
           ]
         }
       },
       {
-        "title": "Reports that write themselves",
-        "body": "Results, blockers, and follow-ups are captured where the work happened. When the launch ships, the report is already there: what shipped, what slipped, and what the team decided.",
-        "link": "Explore reporting",
+        "title": "Full-stack delivery, one partner",
+        "body": "Sites, CRM and pipeline automation, media and creative, systems integration. Bring the project, the problem, or just the idea; if it is technical, we can build and run it.",
+        "link": "Start a project",
         "vignette": {
           "kind": "report",
-          "title": "Launch report",
+          "title": "Engagement snapshot",
           "rows": [
-            { "label": "Signups", "value": "+2,340" },
-            { "label": "Activation", "value": "61%" },
-            { "label": "Tickets", "value": "12" }
+            { "label": "Kickoff to live", "value": "Under 3 weeks" },
+            { "label": "Systems connected", "value": "7" },
+            { "label": "Hours saved weekly", "value": "30+" }
           ],
-          "caption": "First week, public beta"
+          "caption": "Typical mid-size deployment"
         }
       }
     ]
   },
   "developer": {
-    "heading": "Wire SignalKit into your stack",
-    "subhead": "A small, predictable API. Create launches, push milestones, and pull results from the tools your team already uses.",
-    "filename": "create-launch.sh",
+    "heading": "Wire Thraxel into your stack",
+    "subhead": "Agents drop into your existing codebase and tools. Create, configure, and monitor deployments through a small, predictable API.",
+    "filename": "deploy-agent.sh",
     "request": [
-      "curl -X POST https://api.signalkit.dev/v1/launches",
+      "curl -X POST https://api.thraxel.io/v1/agents",
       "  -H \"Authorization: Bearer demo_4242\"",
-      "  -d '{\"name\": \"Public beta\", \"team\": \"growth\"}'"
+      "  -d '{\"persona\": \"follow-up\", \"industry\": \"real-estate\"}'"
     ],
     "responseStatus": "201 Created",
     "response": [
       "{",
-      "  \"id\": \"lch_0042\",",
-      "  \"status\": \"draft\",",
-      "  \"milestones\": 4,",
-      "  \"url\": \"https://app.signalkit.dev/l/lch_0042\"",
+      "  \"id\": \"agt_0042\",",
+      "  \"status\": \"always_on\",",
+      "  \"skills\": 128,",
+      "  \"url\": \"https://app.thraxel.io/a/agt_0042\"",
       "}"
     ],
-    "caption": "Works with the CLI, webhooks, and a typed SDK."
+    "caption": "Works with your APIs, webhooks, and existing services."
   },
   "specimen": {
-    "heading": "Your workspace, your brand",
-    "subhead": "Workspaces pick up your color, type, and controls, so launch pages feel like yours from day one.",
+    "heading": "Your product, your brand",
+    "subhead": "Everything we build picks up your color, type, and controls, so it feels like yours from day one.",
     "swatches": ["Canvas", "Surface", "Ink", "Muted", "Primary", "Accent"],
     "typeSample": "Aa",
     "typeLabels": ["Display", "Body", "Mono"],
     "controls": {
-      "inputLabel": "Workspace name",
-      "inputValue": "North Pier launches",
+      "inputLabel": "Project name",
+      "inputValue": "Client portal build",
       "chip": "On track",
       "primary": "Save changes",
       "secondary": "Preview"
@@ -117,114 +117,114 @@
     "note": "Shown in this brand's design language."
   },
   "stats": {
-    "label": "Team signal",
+    "label": "Thraxel in production",
     "items": [
-      { "value": "42%", "label": "fewer status meetings" },
-      { "value": "18 hr", "label": "average approval time" },
-      { "value": "6 teams", "label": "aligned per launch" }
+      { "value": "6", "label": "industries in production" },
+      { "value": "1000s", "label": "of custom skills deployed" },
+      { "value": "24/7", "label": "always-on operation" }
     ],
-    "note": "Based on active launch workspaces from the last quarter."
+    "note": "Across active Thraxel deployments. SOC 2 and HIPAA compliant infrastructure."
   },
   "testimonial": {
     "trustedBy": {
-      "lead": "Trusted by teams that ship every week",
-      "names": ["North Pier", "Fieldnote", "Arcline", "Meridian Labs", "Hollowell", "Standard Atlas"]
+      "lead": "Deployed for companies across industries",
+      "names": ["Real Estate", "Medical & Biotech", "Cannabis Retail", "E-Commerce", "Hospitality", "Professional Services"]
     },
-    "quote": "SignalKit gave our launch team one place to make decisions, see blockers, and keep momentum without another meeting.",
-    "name": "Maya Chen",
-    "role": "Launch Lead, North Pier",
-    "monogram": "MC",
+    "quote": "Thraxel gave us a technical team that never sleeps. The agents handle the follow-up and monitoring; we approve, and the system keeps getting better.",
+    "name": "Realtor platform deployment",
+    "role": "First vertical in production",
+    "monogram": "RE",
     "caseCard": {
-      "label": "Customer story",
-      "text": "North Pier cut launch review time from nine days to two.",
-      "link": "Read the story"
+      "label": "Deployment story",
+      "text": "An always-on assistant handling listing monitoring, client follow-up, and media for a realtor platform.",
+      "link": "See the platform"
     },
     "quote2": {
-      "quote": "The Monday status meeting is gone. Nobody misses it.",
-      "name": "Priya Anand",
-      "role": "VP Product, Fieldnote"
+      "quote": "It replaced three tools and a part-time hire in the first month.",
+      "name": "E-commerce deployment",
+      "role": "Automation engagement"
     }
   },
   "pricing": {
-    "heading": "Pricing that scales with the launch calendar",
-    "subhead": "Start free. Upgrade when the whole team plans in SignalKit.",
+    "heading": "Engagements that fit how you work",
+    "subhead": "Own it outright, run it managed, or scope something custom.",
     "tiers": [
       {
-        "name": "Free",
-        "price": "$0",
-        "term": "per editor, forever",
-        "features": ["One active launch", "Core checklists", "Community support"],
-        "cta": "Create a free workspace",
+        "name": "License",
+        "price": "One-time",
+        "term": "own the system",
+        "features": ["Full build, delivered", "Your infrastructure", "Handoff and training"],
+        "cta": "Talk through a license",
         "featured": false
       },
       {
-        "name": "Team",
-        "chip": "Most teams",
-        "price": "$16",
-        "term": "per editor a month",
-        "features": ["Unlimited launches", "Approval checkpoints", "Reports and exports", "Priority support"],
-        "cta": "Start a trial",
+        "name": "Subscription",
+        "chip": "Most clients",
+        "price": "Monthly",
+        "term": "managed and improving",
+        "features": ["Always-on agents", "Continuous improvements", "Monitoring and support", "Priority turnaround"],
+        "cta": "Start a subscription",
         "featured": true
       },
       {
-        "name": "Scale",
-        "price": "Custom",
-        "term": "annual, invoiced",
-        "features": ["SSO and provisioning", "Audit log", "Dedicated onboarding"],
-        "cta": "Book a walkthrough",
+        "name": "Custom build",
+        "price": "Scoped",
+        "term": "built to spec",
+        "features": ["Discovery and spec", "Dedicated build team", "Integration with your stack"],
+        "cta": "Book a scoping call",
         "featured": false
       }
     ],
-    "note": "Prices in USD. Every tier includes unlimited viewers."
+    "note": "Every engagement includes direct access to the team."
   },
   "faq": {
     "heading": "Common questions",
     "items": [
       {
-        "q": "How long does setup take?",
-        "a": "Most teams run their first launch the same week. Import a plan or start from the launch template, invite the team, and go."
+        "q": "How fast can you start?",
+        "a": "Discovery starts the same week. Most deployments go from kickoff to a running system in a few weeks."
       },
       {
-        "q": "Can approvers stay in email?",
-        "a": "Yes. Approvers get a link, review in the browser, and never need an account to sign off."
+        "q": "Do you work inside our existing stack?",
+        "a": "Yes. Thraxel drops into your codebase, your APIs, and the tools your team already uses. Nothing gets ripped out or replaced unless you want it gone."
       },
       {
-        "q": "What happens to finished launches?",
-        "a": "They become searchable reports. Every decision, file, and result stays attached to the launch that produced it."
+        "q": "Is it secure?",
+        "a": "Deployments run on SOC 2 and HIPAA compliant infrastructure, with your team approving every change that ships."
       },
       {
-        "q": "Is there a limit on team size?",
-        "a": "No. Every tier includes unlimited viewers; you only pay for editors."
+        "q": "What can you actually build?",
+        "a": "Websites, AI agents, automations, integrations, media. If it is technical, bring it to us."
       }
     ]
   },
   "cta": {
-    "heading": "Bring the next launch into focus",
-    "subhead": "Create a shared workspace for plans, reviews, approvals, and results.",
-    "primary": "Start free",
-    "secondary": "Talk to sales"
+    "heading": "Tell us what you need built",
+    "subhead": "Bring the project, the problem, or just the idea.",
+    "primary": "Start a project",
+    "secondary": "Book a call"
   },
   "form": {
     "eyebrow": "Contact",
     "heading": "Start a conversation",
-    "subhead": "Tell us about your launch and the team will follow up within a day.",
+    "subhead": "Tell us about your project and the team will follow up within a day.",
     "fields": {
       "name": { "label": "Name", "placeholder": "Jane Doe" },
       "email": { "label": "Work email", "placeholder": "jane@company.com" },
       "company": { "label": "Company", "placeholder": "North Pier" },
-      "message": { "label": "How can we help?", "placeholder": "Tell us what you are launching." }
+      "message": { "label": "What do you need built?", "placeholder": "Tell us about your project." }
     },
     "submit": "Send message",
     "note": "A demo form. Nothing is sent."
   },
   "footer": {
-    "wordmark": "SignalKit",
-    "description": "A shared workspace for planning, approving, and measuring product launches.",
+    "wordmark": "Thraxel",
+    "description": "AI agents, web builds, and automation for companies in any industry.",
     "groups": [
-      { "heading": "Product", "links": ["Product", "Workflow", "Pricing", "Customers"] },
-      { "heading": "Resources", "links": ["Docs", "Guide", "Templates", "Support"] },
-      { "heading": "Company", "links": ["About", "Careers", "Contact", "Status"] }
+      { "heading": "Services", "links": ["AI Agents", "Web Builds", "Automation", "Integrations"] },
+      { "heading": "Company", "links": ["About", "Industries", "Pricing", "Contact"] },
+      { "heading": "Resources", "links": ["Platform", "Deployments", "Templates", "Support"] }
     ],
-    "legal": ["© 2026 SignalKit", "Privacy", "Terms"]
+    "legal": ["© 2026 Thraxel", "Privacy", "Terms"]
   }
 }

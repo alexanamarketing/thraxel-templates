@@ -2,7 +2,7 @@
 
 ## What it is
 
-Thraxel's template gallery: one fixed sample page (a fictional product, "SignalKit") rendered in 71 different design languages across 9 categories, each drawn from the visual system of a well-known tech brand. Customers browse the gallery, compare directions side by side, and pick a starting point for the project Thraxel builds for them. Will eventually attach to the main thraxel.io site.
+Thraxel's template gallery: one fixed sample page (Thraxel's own services page: AI agents, web builds, automation) rendered in 71 different design languages across 9 categories, each drawn from the visual system of a well-known tech brand. Customers browse the gallery, compare directions side by side, and pick a starting point for the project Thraxel builds for them. Will eventually attach to the main thraxel.io site.
 
 ## Register
 
